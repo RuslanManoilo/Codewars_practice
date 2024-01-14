@@ -13,3 +13,28 @@
 // console.log(highAndLow("1 2 -3 4 5")); // return "5 -3"
 // console.log(highAndLow("1 9 3 4 -5")); // return "9 -5"
 // console.log(highAndLow("42")); // return "42 42"
+
+
+// ----------------------------------------------------------------------------------------------------
+
+
+// Task 2 - Disemvowel Trolls
+
+// function disemvowel(str) {
+//     const result = str.split(" ").map(item => item.split("").filter(item =>
+//         item.toLowerCase() !== 'a'
+//         && item.toLowerCase() !== 'e'
+//         && item.toLowerCase() !== 'i'
+//         && item.toLowerCase() !== 'o'
+//         && item.toLowerCase() !== 'u'
+//     ).join("")).join(" ");
+
+//     return result;
+// };
+
+// console.log(disemvowel("This website is for losers LOL!")); // "Ths wbst s fr lsrs LL!"
+// console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read")); // "N ffns bt,\nYr wrtng s mng th wrst 'v vr rd"
+// console.log(disemvowel("What are you, a communist?")); // "Wht r y,  cmmnst?"
+
+
+// ----------------------------------------------------------------------------------------------------
