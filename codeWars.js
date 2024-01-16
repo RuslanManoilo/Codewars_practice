@@ -38,3 +38,20 @@
 
 
 // ----------------------------------------------------------------------------------------------------
+
+
+// Task 3 - Find the next perfect square!
+
+// function findNextSquare(sq) {
+//     const result = Math.pow((Math.sqrt(sq) + 1), 2);
+//     return Number.isInteger(result) ? result : -1;
+// };
+
+// console.log(findNextSquare(100)); // 121
+// console.log(findNextSquare(121)); // 144
+// console.log(findNextSquare(151)); // -1
+// console.log(findNextSquare(15241383936)); // 15241630849
+
+
+// ----------------------------------------------------------------------------------------------------
+
