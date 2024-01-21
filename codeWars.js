@@ -77,3 +77,29 @@
 
 
 // ----------------------------------------------------------------------------------------------------
+
+
+// Task 5 - Detect Pangram
+
+// function isPangram(string) {
+//     // My method
+//     const regex = /[a-zA-Z]/;
+//     const onlyLetters = string.toLowerCase().split('').filter(item => regex.test(item));
+//     const result = onlyLetters.reduce((acc, item) => {
+//             acc.includes(item) ? acc : acc.push(item);
+//             return acc;
+//         }, []);
+        
+//     return result.length === 26;
+    
+//     // Method 2
+//     // const x = [... new Set(string.toLowerCase().split('').filter(item => regex.test(item)))]
+//     // return x.length === 26;
+// };
+
+// console.log(isPangram("The quick brown fox jumps over the lazy dog.")); 
+// console.log(isPangram("This is not a pangram.")); 
+// console.log(isPangram('ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ')); 
+
+
+// ----------------------------------------------------------------------------------------------------
