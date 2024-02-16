@@ -117,3 +117,28 @@
 
 
 // ----------------------------------------------------------------------------------------------------
+
+
+// Task 7 - Find the odd int
+
+// function findOdd(A) {
+//     // Method from i-net
+//     // let obj = {};
+//     // const createObj = A.map(item => obj.hasOwnProperty(item) ? obj[item] += 1 : obj[item] = 1);
+//     // return Number(Object.keys(obj).filter(item => obj[item] % 2 !== 0));
+
+//     // My method
+//     const newObj =  A.reduce((acc, elem) => {
+//         acc.hasOwnProperty(elem) ? acc[elem] += 1 : acc[elem] = 1;
+//         return acc;
+//     }, {});
+
+//     return Number(Object.keys(newObj).filter(item => newObj[item] % 2 !== 0));
+// };
+
+// console.log(findOdd([1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1, 7, 7]));  //  4
+// console.log(findOdd([1,2,1,3,2]));  //  3
+
+
+// ----------------------------------------------------------------------------------------------------
+
