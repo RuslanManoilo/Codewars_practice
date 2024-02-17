@@ -142,3 +142,21 @@
 
 // ----------------------------------------------------------------------------------------------------
 
+
+// Task 8 - Find the missing letter
+
+// function findMissingLetter(array) {
+//     const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('').includes(array[0]) ? "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('') : "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toLowerCase().split('');
+//     const firstIdx = alphabet.findIndex(idx => idx === array[0]);
+//     const lastIdx = alphabet.findIndex(idx => idx === array[array.length - 1]) + 1;
+
+//     const result = alphabet.slice(firstIdx, lastIdx).filter(elem => !array.includes(elem));
+//     return result[0];
+// }
+
+// console.log(findMissingLetter(['a', 'b', 'c', 'd', 'f']));  //  e
+// console.log(findMissingLetter(['O', 'Q', 'R', 'S']));  // P
+
+
+// ----------------------------------------------------------------------------------------------------
+
